@@ -6,7 +6,7 @@
   "type": "module",
   "packageManager": "pnpm@10.28.2",
   "scripts": {
-    "dev": "wxt",
+    "dev": "wxt --browser chrome",
     "build": "wxt build",
     "zip": "wxt zip",
     "postinstall": "wxt prepare",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
+    "@xyflow/react": "^12.12.0",
     "cytoscape": "^3.34.4",
     "cytoscape-dagre": "^4.0.1",
     "dexie": "^4.4.7",

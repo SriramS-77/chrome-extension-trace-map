@@ -10,3 +10,9 @@ coverage/
 !.env.example
 playwright-report/
 test-results/
+
+.claude/
+CLAUDE.md 
+
+Modelfile
+docs/
